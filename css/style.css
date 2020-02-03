@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, button {
+    font-weight: 700;
+}
+
+header {
+    height: 65px;
+    background-color: white;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 0 15px;
+
+}
+
+.navbar-default {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #031b4e;
+}
+
+.btn-nav {
+    background-color: white;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    cursor: pointer;
+    padding: 11px 16px 8px;
+    font-weight: 900;
+}
+
+.banner {
+    background-color: #0248ff;
+    padding: 90px 0;
+}
+
+.homepage {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 64px 0;
+    margin: 16px auto -16px;
+}
+
+#importante {
+    color: white;
+    padding: 16px 0 0 16px;
+}
+
+h1 {
+    font-size: 62px;
+    margin-bottom: 16px;
+}
+
+.text_large {
+    font-size: 24px;
+    margin: 16px 0 32px;
+}
+
+.signup_box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 32px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 8px 0 32px;
+}
+
+.form-control {
+    height: 48px;
+    padding: 0 16px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    color: rgba(3,27,78,.7);
+}
+
+.btn-default  {
+    width: 100%;
+    font-size: 16px;
+    background-color: #0069ff;
+    border: none;
+    color: #fff;
+    padding: 13px 32px;
+    font-weight: 700;
+}
+
+.btn-default:hover {
+    background-color: #1633ff;
+    border: none;
+    color: #fff;
+}
+
+.logic_choice {
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+}
+
+.or_or {
+    color: #5b6987;
+    display: grid;
+    font-size: 16px;
+    width: 100%;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px,1fr) auto minmax(20px,1fr);
+    grid-gap: 19px;
+}
+
+.signup_box .logic_choice .or_or::after, .signup_box .logic_choice .or_or::before {
+    content: "";
+    border-top: 1px solid #e5e8ed;
+}
