@@ -227,7 +227,6 @@ li {
 }
 
 .bui_ug {
-    height: 813px;
     padding: 120px 0 64px;
 }
 
@@ -294,4 +293,77 @@ h3 {
 
 #first_paragrafo {
     margin-bottom: 33px;
+}
+
+.background-gray {
+    background-color: #f3f5f9;
+    padding: 120px 0;
+}
+
+.bck-gray {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.screenshot {
+    border-radius: 5px;
+}
+
+.under-txt {
+    color: rgba(3,27,78,.7);
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+
+.background-gray img {
+    object-fit: contain;
+    height: 478.4px;
+    max-width: 100%;
+}
+
+.free-list {
+    display: inline-block;
+    text-align: center;
+}
+
+.ball {
+    position: relative;
+    float: left;
+    background-color: transparent;
+    border: 2px solid #0069ff;
+    border-radius: 50%;
+    height: 10px;
+    margin: 20px 6px;
+    opacity: 1;
+    width: 10px;
+}
+
+.full {
+    background-color: #0069ff;
+}
+
+.full {
+    cursor: pointer;
+}
+
+.out:hover {
+    cursor: pointer;
+
+}
+
+.scorrere {
+    font-size: 30px;
+    position: absolute;
+    top: 260px;
+}
+
+.fa-chevron-left {
+    cursor: auto;
+    color: rgba(3,27,78,.3);
+}
+
+.fa-chevron-right:hover {
+    cursor: pointer;
 }
