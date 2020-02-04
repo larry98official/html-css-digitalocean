@@ -56,6 +56,7 @@ header {
 #importante {
     color: white;
     padding: 16px 0 0 16px;
+    margin-top: 60px;
 }
 
 h1 {
@@ -208,8 +209,10 @@ li {
     text-decoration: none;
 }
 
-#splunk {
-    margin: auto;
+.logo-container img {
+    object-fit: contain;
+    height: 80px;
+    max-width: 100%;
 }
 
 .see_business {
@@ -223,4 +226,38 @@ li {
 .see_business:hover {
     color: #005fe6;
     text-decoration: none;
+}
+
+.bui_ug {
+    height: 813px;
+    padding: 120px 0 64px;
+}
+
+.bui_container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 45px;
+    text-align: center;
+}
+
+.deploy-and {
+    font-size: 36px;
+    margin: 0 0 16px;
+}
+
+.deploy-and-txt {
+    color: rgba(3,27,78,.7);
+    font-size: 20px;
+    margin: 16px 0 64px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 8px 0 16px;
+}
+
+.short_txt {
+    font-size: 16px;
+    color: rgba(3,27,78,.7);    
+    margin: 16px 0 0;
 }
