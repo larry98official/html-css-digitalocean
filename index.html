@@ -11,23 +11,29 @@
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-default">
-                <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-fixed-top ms--bg-dark  text-uppercase" id="main_nav">
+                <div class="container">
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#"><img src="https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Fthumbs%2F1x%2Fdigitalocean-2-logo.png" alt="logocean" style="width: 172px; height: 29px"></a>
+                        <button type="button" class="navbar-toggle collapsed ms--bg-light" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" id="title_logo" href="#">DigitalOcean</a>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav" id="prima_lista">
                             <li class="nav_text" class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
+                            <a href="#" class="navbar-list" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<span class="caret"></span></a>
                             </li>
-                            <li class="nav_text"><a href="#">Marketplace</a></li>
-                            <li class="nav_text"><a href="#">Customers</a></li>
-                            <li class="nav_text"><a href="#">Partners</a></li>
-                            <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
+                            <li class="nav_text"><a href="#" class="navbar-list">Marketplace</a></li>
+                            <li class="nav_text"><a href="#" class="navbar-list">Customers</a></li>
+                            <li class="nav_text"><a href="#" class="navbar-list">Partners</a></li>
+                            <li class="nav_text dropdown">
+                            <a href="#" class="navbar-list" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<span class="caret"></span></a>
                             </li>
-                            <li class="nav_text"><a href="#">Pricing</a></li>
+                            <li class="nav_text"><a href="#" class="navbar-list">Pricing</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
                             <li>
@@ -59,7 +65,7 @@
                                     <div class="form-group">
                                         <input type="Create a password" class="form-control" id="exampleInputPassword1" placeholder="Create a password">
                                     </div>
-                                    <button type="Create your account" class="btn btn-default">Create your account</button>
+                                    <button type="Create your account" id="button_sign_account">Create your account</button>
                                 </form>
                                 <div class="logic_choice">
                                     <span class="or_or">
@@ -83,7 +89,7 @@
         </section>
         <section class="logo-container">
             <div class="logolist_container">
-                <h2>Innovative businesses trust DigitalOcean</h2>
+                <h2 class="logo_title-1">INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h2>
                 <div class="home_logolist">
                 <div class="row">
                     <ul>
@@ -108,7 +114,7 @@
                     </ul>
                 </div>
                 </div>
-                <a href="#" class="see_business">See business solutions</a>
+                <a href="#" class="see_business">See business solutions<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a>
             </div>
         </section>
         <section class="bui_ug">
@@ -233,7 +239,7 @@
         </section>
         <section class="sezione_1">
             <div class="sezione_2">
-                <h2 class="deploy-and">Built for business</h2>
+                <h2 class="deploy-and" id="built_for_business">Built for business</h2>
                 <div class="row">
                     <div class="col-xs-12 col-md-6 col-lg-3">
                         <svg class="section_3" xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" aria-hidden="true" class="www-Icon www-Icon--xlarge">

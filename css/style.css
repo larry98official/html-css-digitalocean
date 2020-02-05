@@ -12,10 +12,6 @@ h1, h2, button {
     font-weight: 700;
 }
 
-/* a:hover {
-   outline: inherit;
-} */
-
 header {
     height: 65px;
     background-color: white;
@@ -43,6 +39,43 @@ header {
     font-weight: 900;
 }
 
+.btn-nav:hover {
+    background-color: #0248ff;
+    color: #fff;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#title_logo {
+    font-size: 20px;
+    margin: 12px;
+    font-weight: 900;
+    color: #0069ff;
+}
+
+#prima_lista {
+    margin: auto 0;
+}
+
+.navbar-list {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.nav_text:hover {
+    color: #0248ff;
+}
+
+@media screen and (min-widht: 1049px) {
+    .navbar {
+        background-color: #0248ff;
+    }
+}
+
 .banner {
     background-color: #0248ff;
     padding: 90px 0;
@@ -52,7 +85,7 @@ header {
     max-width: 1170px;
     margin: 0 auto;
     padding: 64px 0;
-    margin: 16px auto -16px;
+    margin: 16px auto;
 }
 
 #importante {
@@ -98,7 +131,6 @@ h2 {
     background-color: #0069ff;
     border: none;
     color: #fff;
-    padding: 13px 32px;
     font-weight: 700;
 }
 
@@ -186,6 +218,31 @@ h2 {
 
 .terms_of_service:hover {
     color: #005fe6;
+}
+
+#button_sign_account  {
+    width: 100%;
+    font-size: 16px;
+    background-color: #0069ff;
+    border: none;
+    color: #fff;
+    padding: 13px 32px;
+    border-radius: 5px;
+}
+
+#button_sign_account:hover  {
+    background-color: #1633ff;
+}
+
+.logo_title-1 {
+    color: #031B4E;
+    font-size: 14px;
+    margin: 0 0 16px;
+    opacity: .4;
+}
+
+.glyphicon {
+    font-size: 12px;
 }
 
 .home_logolist {
@@ -389,6 +446,10 @@ h3 {
     padding: 0 16px;
 }
 
+#built_for_business {
+    margin-bottom: 50px;
+}
+
 .section_3 {
     margin-bottom: 16px;
 }
@@ -482,7 +543,7 @@ h3 {
 }
 
 .btn-default {
-    width: 19%;
+    width: 170px;
     background-color: #fff;
     color: #0069ff;
     margin-top: 24px;
