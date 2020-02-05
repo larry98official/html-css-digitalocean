@@ -241,6 +241,12 @@ li {
     text-align: center;
 }
 
+.grid-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 .deploy-and {
     font-size: 36px;
     margin: 0 0 16px;
@@ -448,4 +454,107 @@ h3 {
 .text_color:hover {
     cursor: pointer;
     color: #005fe6;
+}
+
+.teams-color {
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+.teams-color:hover {
+    color: #005fe6;
+}
+
+.sezione_bottone {
+    padding: 64px 0;
+    background-color: #0248ff;
+}
+
+.sezione_bottone_2 {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.start-now {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.btn-default {
+    width: 19%;
+    background-color: #fff;
+    color: #0069ff;
+    margin-top: 24px;
+}
+
+.btn-default:hover {
+    color: #0069ff;
+    background-color: hsla(0,0%,100%,.8);
+}
+
+footer {
+    font-size: 14px;
+    background-color: #010e28;
+    padding: 96px 0;
+}
+
+.last_sezione {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 16px;
+    margin-top: 64px;
+    border-top: 1px solid hsla(0,0%,100%,.2);
+}
+
+dl {
+    padding: 20px 0 0 20px;
+}
+
+dt {
+    color: #fff;
+    margin-bottom: 14px;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+.description_item {
+    color: hsla(0,0%,100%,.5);
+    text-decoration: none;
+}
+
+.description_item:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.final_div {
+    padding: 20px 0 0 20px;
+}
+
+.copyright {
+    margin-top: 32px;
+    color: hsla(0,0%,100%,.5);
+    text-decoration: none;
+}
+
+.list-inline {
+    margin-top: 32px;
+    margin-left: 0;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 18px;
+}
+
+.icone_misure {
+    color: hsla(0,0%,100%,.5);
+}
+
+.icone_misure:hover {
+    color: #fff;
 }
